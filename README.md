@@ -1,3 +1,1 @@
-# react-ts-sgmffb
-
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-ts-sgmffb)
+# Media player made with React
