@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 import './style.css';
 
-import { Home } from './routes/home.tsx'
+import Home from './Home'
 
 export default function App() {
   return (
