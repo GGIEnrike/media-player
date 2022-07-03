@@ -1,6 +1,12 @@
 import * as React from 'react';
-import { Link } from "react-router-dom";
+import {
+  Link,
+  Routes,
+  Route
+} from "react-router-dom";
 import './style.css';
+
+import { Home } from './routes/home.tsx'
 
 export default function App() {
   return (
@@ -12,7 +18,9 @@ export default function App() {
         <Link to="Settings">Settings</Link>
       </nav>
       <div id="main">
-
+        <Routes>
+          <Route path="home" element={<Home>}></Route>
+        </Routes>
       </div>
     </div>
   );
