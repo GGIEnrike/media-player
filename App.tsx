@@ -19,7 +19,7 @@ export default function App() {
       </nav>
       <div id="main">
         <Routes>
-          <Route path="home" element={<Home>}></Route>
+          <Route path="home" element={<Home />} />
         </Routes>
       </div>
     </div>
