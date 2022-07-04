@@ -10,6 +10,7 @@ function Card() {
   return (
     <div className="Card">
       <h4>Film Name</h4>
+      <img src="https://static.hdrezka.ac/i/2022/2/18/j09948c99c8cfwk71c80m.png"></img>
     </div>
   )
 }

@@ -59,19 +59,32 @@ hr {
 }
 
 .Card {
-  width: 8rem;
+  width: 7rem;
   height: 14rem;
   padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: .5rem;
   border-radius: .5rem;
 
   display: flex;
   flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+
+  /*overflow: hidden;*/
 
   background: lightgray;
 }
 
-h4 {
-  margin-top: 1rem;
+.Card > img {
+  width: 9rem;
+  height: auto;
+}
+
+.Card > h4 {
+  width: 100%;
+  margin-top: .4rem;
+  margin-bottom: .2rem;
 }
 
 .content {
