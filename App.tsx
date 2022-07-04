@@ -23,6 +23,7 @@ function CardView() {
       {Array.apply(null, Array(5)).map(function (x, i) {
         return (
           <Card
+            key={i}
             displayName="Dr. Strange"
             name="doctor-strange"
             bannerURL="https://static.hdrezka.ac/i/2022/2/18/j09948c99c8cfwk71c80m.png"
