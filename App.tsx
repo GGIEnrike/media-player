@@ -17,7 +17,7 @@ function Card() {
 function CardView() {
   return (
     <div className="CardView">
-      { Array.apply(null, Array(5)).map(function (x, i) { return <Card /> }) }
+      { Array.apply(null, Array(25)).map(function (x, i) { return <Card /> }) }
     </div>
   )
 }

@@ -18,9 +18,9 @@ body {
 }
 
 #sidebar {
-  width: 100%;
+  width: 30%;
   height: 100%;
-  flex: 1 1 30%;
+  position: fixed;
 
   display: flex;
   flex-direction: column;
@@ -41,9 +41,9 @@ body {
 }
 
 #main {
-  width: 90%;
+  width: 60%;
   height: 90%;
-  flex: 1 1 70%;
+  margin-left: 30vw;
 
   padding: 5vh;
 }
@@ -54,18 +54,18 @@ hr {
 
 .CardView {
   display: grid;
-  grid-template-columns: repeat(auto-fill, 14vw);
-  gap: 2vw;
+  grid-template-columns: repeat(auto-fill, 9rem);
+  gap: 1rem;
 }
 
 .Card {
-  width: 12vw;
-  height: 21vw;
-  padding-left: 1vw;
+  width: 8rem;
+  height: 14rem;
+  padding-left: 1rem;
   background: lightgray;
-  border-radius: .5vw;
+  border-radius: .5rem;
 }
 
 h4 {
-  margin-top: 1vw;
+  margin-top: 1rem;
 }
