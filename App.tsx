@@ -9,6 +9,7 @@ import './style.css';
 function Card() {
   return (
     <div className="Card">
+      <h4>Film Name</h4>
     </div>
   )
 }
@@ -16,11 +17,7 @@ function Card() {
 function CardView() {
   return (
     <div className="CardView">
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
+      { Array.apply(null, Array(5)).map(function (x, i) { return <Card /> }) }
     </div>
   )
 }

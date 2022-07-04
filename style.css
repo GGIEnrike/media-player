@@ -54,11 +54,18 @@ hr {
 
 .CardView {
   display: grid;
+  grid-template-columns: repeat(auto-fill, 14vw);
   gap: 2vw;
 }
 
 .Card {
-  width: 16vw;
-  height: 24vw;
+  width: 12vw;
+  height: 21vw;
+  padding-left: 1vw;
   background: lightgray;
+  border-radius: .5vw;
+}
+
+h4 {
+  margin-top: 1vw;
 }
