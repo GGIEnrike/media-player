@@ -20,7 +20,7 @@ function Card(props: Movie) {
 function CardView() {
   return (
     <div className="CardView">
-      {Array.apply(null, Array(4)).map(function (x, i) {
+      {Array.apply(null, Array(5)).map(function (x, i) {
         return (
           <Card
             displayName="Dr. Strange"
@@ -84,7 +84,7 @@ export default function App() {
       </nav>
       <div id="main">
         <Routes>
-          <Route path="home" element={<Home />} />
+          <Route path="/home" element={<Home />} />
           <Route path="library" element={<Library />} />
           <Route path="downloads" element={<Downloads />} />
           <Route path="settings" element={<Settings />} />
