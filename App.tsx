@@ -2,11 +2,17 @@ import * as React from 'react';
 import { Link, Routes, Route } from 'react-router-dom';
 import './style.css';
 
-function Card() {
+interface Movie {
+  displayName: string;
+  name: string;
+  bannerURL: string;
+}
+
+function Card(props: Movie) {
   return (
-    <Link to="/library/doctor-strange" className="Card">
-      <h4>Dr. Strange</h4>
-      <img src="https://static.hdrezka.ac/i/2022/2/18/j09948c99c8cfwk71c80m.png"></img>
+    <Link to={'/library/' + props.name} className="Card">
+      <h4>{props.displayName}</h4>
+      <img src={props.bannerURL}></img>
     </Link>
   );
 }
@@ -15,7 +21,13 @@ function CardView() {
   return (
     <div className="CardView">
       {Array.apply(null, Array(4)).map(function (x, i) {
-        return <Card />;
+        return (
+          <Card
+            displayName="Dr. Strange"
+            name="doctor-strange"
+            bannerURL="https://static.hdrezka.ac/i/2022/2/18/j09948c99c8cfwk71c80m.png"
+          />
+        );
       })}
     </div>
   );
