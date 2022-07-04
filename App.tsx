@@ -36,7 +36,7 @@ function Downloads() {
 function Settings() {
   return (
     <div>
-      <h1 className="Settings">Settings</h1>
+      <h1 className="Header">Settings</h1>
       <hr />
     </div>
   )
