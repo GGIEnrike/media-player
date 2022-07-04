@@ -15,6 +15,15 @@ function Home() {
   )
 }
 
+function Library() {
+  return (
+    <div>
+      <h1 className="Header"></h1>
+      <hr />
+    </div>
+  )
+}
+
 export default function App() {
   return (
     <div id="app">
