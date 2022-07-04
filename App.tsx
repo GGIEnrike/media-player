@@ -6,7 +6,14 @@ import {
 } from "react-router-dom";
 import './style.css';
 
-import Home from './Home'
+function Home() {
+  return (
+    <div>
+      <h1 className="Header">Home</h1>
+      <hr />
+    </div>
+  )
+}
 
 export default function App() {
   return (
