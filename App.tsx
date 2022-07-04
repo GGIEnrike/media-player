@@ -55,6 +55,8 @@ export default function App() {
         <Routes>
           <Route path="home" element={<Home />} />
           <Route path="library" element={<Library />} />
+          <Route path="downloads" element={<Downloads />} />
+          <Route path="settings" element={<Settings />} />
         </Routes>
       </div>
     </div>
