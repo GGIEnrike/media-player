@@ -16,6 +16,11 @@ function Card() {
 function CardView() {
   return (
     <div className="CardView">
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
     </div>
   )
 }
