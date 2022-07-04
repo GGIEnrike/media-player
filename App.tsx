@@ -24,7 +24,7 @@ function CardView() {
 
 function Home() {
   return (
-    <div>
+    <div className="content">
       <h1>Home</h1>
       <hr />
       <h2>Recommended for you</h2>
@@ -35,7 +35,7 @@ function Home() {
 
 function Library() {
   return (
-    <div>
+    <div className="content">
       <h1 >Library</h1>
       <hr />
     </div>
@@ -44,7 +44,7 @@ function Library() {
 
 function Downloads() {
   return (
-    <div>
+    <div className="content">
       <h1 >Downloads</h1>
       <hr />
     </div>
@@ -53,7 +53,7 @@ function Downloads() {
 
 function Settings() {
   return (
-    <div>
+    <div className="content">
       <h1 >Settings</h1>
       <hr />
     </div>
