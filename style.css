@@ -1,4 +1,4 @@
-h1, p {
+body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -34,7 +34,6 @@ body {
 
 #sidebar > * {
   font-weight: bold;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 #sidebar > *:hover {
@@ -49,6 +48,13 @@ body {
   padding: 5vh;
 }
 
-.Header {
+hr {
+  margin-bottom: 5vh;;
+}
 
+.CardView {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }

@@ -6,11 +6,27 @@ import {
 } from "react-router-dom";
 import './style.css';
 
+function Card() {
+  return (
+    <div className="Card">
+    </div>
+  )
+}
+
+function CardView() {
+  return (
+    <div className="CardView">
+    </div>
+  )
+}
+
 function Home() {
   return (
     <div>
-      <h1 className="Header">Home</h1>
+      <h1>Home</h1>
       <hr />
+      <h2>Recommended for you</h2>
+      <CardView category="Recommended"/>
     </div>
   )
 }
@@ -18,7 +34,7 @@ function Home() {
 function Library() {
   return (
     <div>
-      <h1 className="Header">Library</h1>
+      <h1 >Library</h1>
       <hr />
     </div>
   )
@@ -27,7 +43,7 @@ function Library() {
 function Downloads() {
   return (
     <div>
-      <h1 className="Header">Downloads</h1>
+      <h1 >Downloads</h1>
       <hr />
     </div>
   )
@@ -36,7 +52,7 @@ function Downloads() {
 function Settings() {
   return (
     <div>
-      <h1 className="Header">Settings</h1>
+      <h1 >Settings</h1>
       <hr />
     </div>
   )
