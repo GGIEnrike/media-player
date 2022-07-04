@@ -62,10 +62,18 @@ hr {
   width: 8rem;
   height: 14rem;
   padding-left: 1rem;
-  background: lightgray;
   border-radius: .5rem;
+
+  display: flex;
+  flex-direction: column-reverse;
+
+  background: lightgray;
 }
 
 h4 {
   margin-top: 1rem;
+}
+
+.content {
+  padding-bottom: 2rem;
 }
